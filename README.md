@@ -8,4 +8,7 @@ createuser --interactive --pwprompt
 **Let's switch to the postgres user:**
 sudo -i -u postgres
 
+**psql**
+CREATE DATABASE mqtt
+
 # MQTT-Test-Project
