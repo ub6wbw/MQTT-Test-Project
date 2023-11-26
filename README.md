@@ -13,10 +13,15 @@ psql -d mqtt_data
 **Create table in DB:**
 
 mqtt_data=# CREATE TABLE mqtt_data_test(
+
 event_num int8,
+
 event_date char(8),
+
 event_time char(8),
+
 event_payload char(64)
+
 );
 
 # MQTT-Test-Project
