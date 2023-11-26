@@ -5,8 +5,7 @@ sudo apt-get update && sudo apt-get upgrade && sudo apt install postgresql postg
 sudo -i -u postgres
 
 **Create DB:**
-**psql ->**
-CREATE DATABASE mqtt_data;
+psql CREATE DATABASE mqtt_data;
 
 **Connect to DB:**
 psql -d mqtt_data
